@@ -1,0 +1,191 @@
+{
+  "name": "\ud835\udc11\ud835\udc04\ud835\udc03\ud835\udc13\ud835\udc04\ud835\udc02\ud835\udc07-\ud835\udc00\ud835\udc08",
+  "description": "Javascript WhatsApp bot made by \u262c \ud83d\udc51 \ud835\udd42\ud835\udd40\u2115\ud835\udd3e \u211d\ud835\udd3c\ud835\udd3b \ud83d\udc51 \u262c \ud80c\udcf5\ud83d\udd25 - \ud835\udc11\ud835\udc04\ud835\udc03\ud835\udc13\ud835\udc04\ud835\udc02\ud835\udc07-\ud835\udc00\ud835\udc08",
+  "logo": "https://files.catbox.moe/1k4htj.jpg",
+  "keywords": [
+    "\ud835\udc11\ud835\udc04\ud835\udc03\ud835\udc13\ud835\udc04\ud835\udc02\ud835\udc07-\ud835\udc00\ud835\udc08",
+    "whatsapp-bot",
+    "redtech"
+  ],
+  "success_url": "/",
+  "stack": "container",
+  "env": {
+    "SUDO": {
+      "description": "The Super-Admin phone number with country code (e.g. 254100969922)",
+      "required": false,
+      "type": "string"
+    },
+    "OWNERS": {
+      "description": "Additional admin numbers separated by commas",
+      "required": false,
+      "type": "string"
+    },
+    "PREFIX": {
+      "description": "Bot command prefix",
+      "required": false,
+      "type": "string",
+      "value": "."
+    },
+    "MODE": {
+      "description": "Bot mode public/private/inbox/group",
+      "required": false,
+      "type": "string",
+      "value": "public"
+    },
+    "STICKER_NAME": {
+      "description": "Sticker pack name",
+      "required": false,
+      "value": "\u262c \ud83d\udc51 \ud835\udd42\ud835\udd40\u2115\ud835\udd3e \u211d\ud835\udd3c\ud835\udd3b \ud83d\udc51 \u262c \ud80c\udcf5\ud83d\udd25 - \ud835\udc11\ud835\udc04\ud835\udc03\ud835\udc13\ud835\udc04\ud835\udc02\ud835\udc07-\ud835\udc00\ud835\udc08"
+    },
+    "ANTI_CALL": {
+      "description": "Block calls",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_DOWNLOADER": {
+      "description": "Auto download TikTok, FB, YT etc",
+      "required": false,
+      "value": "false"
+    },
+    "ANTI_DELETE": {
+      "description": "Show deleted messages",
+      "required": false,
+      "value": "true"
+    },
+    "ALWAYS_ONLINE": {
+      "description": "Always online",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_REPLY": {
+      "description": "Automatic reply",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_STICKER": {
+      "description": "Automatic sticker",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_STATUS_SEEN": {
+      "description": "Auto status seen",
+      "required": false,
+      "value": "true"
+    },
+    "AUTO_STATUS_REACT": {
+      "description": "Auto status reaction",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_STATUS_REPLY": {
+      "description": "Auto reply on status",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_STATUS_MSG": {
+      "description": "Custom status reply message",
+      "required": false,
+      "value": "*SEEN YOUR STATUS BY \ud835\udc11\ud835\udc04\ud835\udc03\ud835\udc13\ud835\udc04\ud835\udc02\ud835\udc07-\ud835\udc00\ud835\udc08 \u2764\ufe0f*"
+    },
+    "OWNER_NAME": {
+      "description": "Bot Owner Name",
+      "required": false,
+      "value": "\u262c \ud83d\udc51 \ud835\udd42\ud835\udd40\u2115\ud835\udd3e \u211d\ud835\udd3c\ud835\udd3b \ud83d\udc51 \u262c"
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner number",
+      "required": false,
+      "value": "254100969922"
+    },
+    "BOT_NAME": {
+      "description": "Bot name",
+      "required": false,
+      "value": "\ud835\udc11\ud835\udc04\ud835\udc03\ud835\udc13\ud835\udc04\ud835\udc02\ud835\udc07-\ud835\udc00\ud835\udc08"
+    },
+    "ANTI_LINK": {
+      "description": "Auto remove group links",
+      "required": false,
+      "value": "true"
+    },
+    "ANTI_LINK_KICK": {
+      "description": "Kick on link",
+      "required": false,
+      "value": "false"
+    },
+    "ANTI_BAD": {
+      "description": "Auto delete bad words",
+      "required": false,
+      "value": "false"
+    },
+    "MENTION_REPLY": {
+      "description": "Mention reply",
+      "required": false,
+      "value": "false"
+    },
+    "MENU_IMAGE_URL": {
+      "description": "Menu image URL",
+      "required": false,
+      "value": "https://files.catbox.moe/1k4htj.jpg"
+    },
+    "DESCRIPTION": {
+      "description": "Menu caption",
+      "required": false,
+      "value": "*CREATER \u262c \ud83d\udc51 \ud835\udd42\ud835\udd40\u2115\ud835\udd3e \u211d\ud835\udd3c\ud835\udd3b \ud83d\udc51 \u262c \ud80c\udcf5\ud83d\udd25 - \ud835\udc11\ud835\udc04\ud835\udc03\ud835\udc13\ud835\udc04\ud835\udc02\ud835\udc07-\ud835\udc00\ud835\udc08*"
+    },
+    "DELETE_LINKS": {
+      "description": "Remove links without kicking",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_RECORDING": {
+      "description": "Auto recording",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_TYPING": {
+      "description": "Auto typing",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_REACT": {
+      "description": "React on every message with random keyboard emoji",
+      "required": false,
+      "value": "true"
+    },
+    "REACT_EMOJIS": {
+      "description": "Reaction emojis (comma-separated)",
+      "required": false,
+      "value": "\u2764\ufe0f,\ud83d\udd25,\ud83d\udc4d,\ud83d\ude0d,\ud83d\ude02,\ud83d\ude2e,\ud83d\ude0e,\ud83e\udd70,\ud83d\udc4b,\ud83e\udd1d,\ud83d\udcaf,\u2728,\u2b50,\ud83c\udf89,\ud83e\udd17,\ud83d\ude0a,\ud83d\ude4c,\ud83d\udcaa,\ud83d\udc4f,\u2705,\ud83c\udf88,\ud83c\udf8a,\ud83c\udfc6,\u26a1,\ud83d\udcab,\ud83d\udc4c,\ud83e\udd19,\ud83d\udc96,\ud83d\udc95,\ud83d\udc97,\ud83d\udc51,\ud83d\udc8e,\ud83c\udf1f,\ud83c\udfaf,\ud83c\udfa8,\ud83c\udfad,\ud83c\udfaa,\ud83c\udfa2,\ud83c\udfa1,\ud83c\udfa0"
+    },
+    "OWNER_EMOJIS": {
+      "description": "Owner reaction emojis (comma-separated)",
+      "required": false,
+      "value": "\ud83d\udc51,\ud83d\udc8e,\u2b50,\u2728,\ud83d\udd25,\ud83d\udcaf,\u2705,\ud83c\udf89,\ud83e\udd16,\u26a1,\ud83d\udcab,\ud83c\udf1f,\ud83c\udfc6,\ud83d\udc7e,\ud83d\ude80,\ud83d\udcaa,\ud83c\udfaf,\ud83d\udd31,\u267e\ufe0f,\u269c\ufe0f"
+    },
+    "ANTI_DEL_PATH": {
+      "description": "Deleted message resend path - same or inbox",
+      "required": false,
+      "value": "inbox"
+    },
+    "ADMIN_EVENTS": {
+      "description": "Notify promote/demote",
+      "required": false,
+      "value": "false"
+    },
+    "WELCOME": {
+      "description": "Welcome/goodbye in groups",
+      "required": false,
+      "value": "false"
+    },
+    "READ_MESSAGE": {
+      "description": "Read all messages",
+      "required": false,
+      "value": "false"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ]
+}
